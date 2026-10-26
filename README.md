@@ -11,7 +11,7 @@ A Python data-analysis project built with NumPy and Pandas for the **EWB Courses
 | Field | Details |
 |---|---|
 | Student Name | Harsh Kumar Bhadani |
-| Student ID / Batch | _[Your ID / Batch]_ |
+|  Batch | _[ Batch 2 ]_ |
 | Course | Python with AI – EWB Courses |
 | Email | jeebitsat4597@gmail.com |
 
@@ -214,7 +214,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-**Live link:** _[Paste your Streamlit app link here]_
+**Live link:** _[https://student-performance-analytics-system-2ptvxw79rshxkvbvvwx8np.streamlit.app/]_
 
 ---
 
