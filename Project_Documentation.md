@@ -10,7 +10,7 @@ A Python data-analysis project built with NumPy and Pandas for the **EWB Courses
 
 | Field | Details |
 |---|---|
-| Student Name | _[Harsh Kumar Bhadani]_ |
+| Student Name | Harsh Kumar Bhadani |
 | Student ID / Batch | _[Your ID / Batch]_ |
 | Course | Python with AI – EWB Courses |
 | Email | jeebitsat4597@gmail.com |
@@ -41,6 +41,7 @@ The output is a readable report that can be understood without opening the code.
 | Python 3 | Core language (variables, data types, loops, functions, conditions) |
 | NumPy | Numerical calculations (sum, mean, max, min, median, std-dev, comparisons) |
 | Pandas | Loading the CSV, DataFrame handling, filtering, sorting, groupby |
+| Streamlit | Interactive web app version of the project |
 | Git & GitHub | Version control and submission |
 
 No machine learning is used, as per the assignment instructions.
@@ -100,11 +101,12 @@ The dataset is realistic and mixed: it contains high scorers, average students, 
 ```
 student-performance-analytics/
 ├── main.py                    # Runs the project and prints the analysis
+├── app.py                     # Streamlit web app (live version)
 ├── functions.py               # Reusable calculation/processing functions
 ├── students.csv               # Dataset (20 records)
 ├── results.csv                # Generated output with Total, Average, Grade, Result
 ├── output.txt                 # Saved console output of the program
-├── requirements.txt           # numpy, pandas
+├── requirements.txt           # numpy, pandas, streamlit
 ├── README.md                  # Project documentation
 └── Project_Documentation.md   # Same documentation (as suggested in the assignment)
 ```
@@ -199,6 +201,23 @@ The program uses functions, loops, conditions, NumPy and Pandas as required, run
 
 ---
 
+## Live Web App (Streamlit)
+
+The project also includes an interactive web version, `app.py`, which reuses the same functions from `functions.py`.
+
+**Features:** key metrics, searchable student table with CSV download, top performers with chart, subject-wise analysis, department and grade distribution, failed-student and low-attendance alerts, department filter, and optional upload of your own CSV.
+
+**Run locally:**
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+**Live link:** _[Paste your Streamlit app link here]_
+
+---
+
 ## 9. Challenges & Learning
 
 | Challenge | How it was solved |
@@ -214,5 +233,4 @@ The program uses functions, loops, conditions, NumPy and Pandas as required, run
 
 ## 10. GitHub Repository
 
-🔗 _[Paste your final GitHub repository link here]_  
-Example: `https://github.com/<your-username>/student-performance-analytics`
+🔗 https://github.com/harshbhadani4597/Student-Performance-Analytics-System
