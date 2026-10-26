@@ -1,0 +1,134 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Number of records : 20
+Number of columns : 9
+Columns           : ['Student_ID', 'Name', 'Department', 'Maths', 'Physics', 'Chemistry', 'English', 'Computer', 'Attendance']
+
+First 5 records:
+  Student_ID          Name        Department  Maths  Physics  Chemistry  English  Computer  Attendance
+0       S101  Aarav Sharma  Computer Science     92       88         85       78        95          94
+1       S102   Priya Verma  Computer Science     76       72         68       81        84          89
+2       S103   Rohan Kumar        Mechanical     58       62         55       60        52          78
+3       S104   Sneha Singh       Electronics     85       90         82       88        91          96
+4       S105    Aditya Raj             Civil     45       48         52       60        41          72
+
+Missing values per column:
+Student_ID    0
+Name          0
+Department    0
+Maths         0
+Physics       0
+Chemistry     0
+English       0
+Computer      0
+Attendance    0
+
+======================================================================
+2. STUDENT RESULTS (Total, Average, Grade, Result)
+======================================================================
+Student_ID          Name       Department  Total  Average Grade Result
+      S101  Aarav Sharma Computer Science    438     87.6     A   Pass
+      S102   Priya Verma Computer Science    381     76.2     B   Pass
+      S103   Rohan Kumar       Mechanical    287     57.4     D   Pass
+      S104   Sneha Singh      Electronics    436     87.2     A   Pass
+      S105    Aditya Raj            Civil    246     49.2     E   Pass
+      S106    Neha Gupta Computer Science    472     94.4    A+   Pass
+      S107  Vikram Yadav       Mechanical    229     45.8     E   Fail
+      S108 Anjali Mishra      Electronics    377     75.4     B   Pass
+      S109  Rahul Pandey            Civil    319     63.8     C   Pass
+      S110    Kavya Nair Computer Science    418     83.6     A   Pass
+      S111    Manish Jha       Mechanical    232     46.4     E   Pass
+      S112  Pooja Kumari      Electronics    354     70.8     B   Pass
+      S113 Siddharth Roy            Civil    300     60.0     C   Pass
+      S114    Ishita Das Computer Science    444     88.8     A   Pass
+      S115  Arjun Prasad      Electronics    251     50.2     D   Fail
+      S116  Divya Tiwari            Civil    363     72.6     B   Pass
+      S117   Karan Mehta       Mechanical    318     63.6     C   Pass
+      S118  Riya Chauhan Computer Science    399     79.8     B   Pass
+      S119 Saurabh Dubey      Electronics    275     55.0     D   Pass
+      S120   Tanvi Joshi            Civil    434     86.8     A   Pass
+
+======================================================================
+3. CLASS PERFORMANCE
+======================================================================
+Highest average : 94.4  (Neha Gupta)
+Lowest average  : 45.8  (Vikram Yadav)
+Class average   : 69.73
+Median average  : 71.7
+Std deviation   : 15.36
+
+======================================================================
+4. PASS / FAIL STATISTICS
+======================================================================
+Total students  : 20
+Passed          : 18
+Failed          : 2
+Pass percentage : 90.0%
+
+(Pass rule: at least 40 marks in every subject)
+
+Failed students:
+Student_ID         Name  Average
+      S107 Vikram Yadav     45.8
+      S115 Arjun Prasad     50.2
+
+======================================================================
+5. GRADE DISTRIBUTION
+======================================================================
+Grade
+A+    1
+A     5
+B     5
+C     3
+D     3
+E     3
+F     0
+
+======================================================================
+6. SUBJECT-WISE ANALYSIS (sorted by average)
+======================================================================
+  Subject  Average  Highest  Lowest  Std_Dev  Passed
+  English    73.45       92      52    12.42      20
+ Computer    71.60       97      41    17.02      20
+  Physics    68.75       95      42    16.30      20
+    Maths    67.60       98      34    17.85      18
+Chemistry    67.25       92      40    15.07      20
+
+Best subject  : English (avg 73.45)
+Weakest subject: Chemistry (avg 67.25)
+
+======================================================================
+7. TOP 5 PERFORMING STUDENTS
+======================================================================
+ Rank Student_ID         Name       Department  Total  Average Grade
+    1       S106   Neha Gupta Computer Science    472     94.4    A+
+    2       S114   Ishita Das Computer Science    444     88.8     A
+    3       S101 Aarav Sharma Computer Science    438     87.6     A
+    4       S104  Sneha Singh      Electronics    436     87.2     A
+    5       S120  Tanvi Joshi            Civil    434     86.8     A
+
+======================================================================
+8. DEPARTMENT-WISE ANALYSIS
+======================================================================
+                  Students  Avg_Marks  Avg_Attendance  Passed
+Department                                                   
+Computer Science         6      85.07           93.17       6
+Electronics              5      67.72           83.00       4
+Civil                    5      66.48           82.20       5
+Mechanical               4      53.30           75.75       3
+
+======================================================================
+9. LOW ATTENDANCE ALERT (below 75%)
+======================================================================
+Student_ID         Name  Attendance
+      S105   Aditya Raj          72
+      S107 Vikram Yadav          68
+      S111   Manish Jha          74
+      S115 Arjun Prasad          70
+
+======================================================================
+DONE
+======================================================================
+Full results saved to results.csv
